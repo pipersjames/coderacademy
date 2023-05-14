@@ -1,0 +1,102 @@
+* {
+    margin:0;
+    border:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/*background image*/
+
+html { 
+    height: 100%
+}
+body {
+    background-image:  url(https://cdn.pixabay.com/photo/2018/09/25/23/40/cranes-3703469_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.header {
+    color: white;
+}
+
+
+/*nav bar */
+.logo {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.page-name {
+    margin: 32px 0px 32px 80px ;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 80px;
+}
+
+.nav-links a {
+    margin: 16px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgb(151, 151, 63);
+}
+
+.nav-links a:visited {
+    color: white;
+}
+
+/*jumbotron */
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px 30vw;
+    text-align: center;
+    color: white;
+}
+
+.welcome-statement { 
+    font-size: 64px;
+    padding: 15px;
+    border-bottom: solid rgb(151, 151, 63);
+    margin: 15px;
+}
+.welcome-message { 
+    font-size: 18px;
+}
+
+.get-started-btn {
+    border: solid rgb(151,151,63);
+    border-radius: 25px / 50%;
+    padding: 10px 40px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 15px
+}
+
+.get-started-btn:visited, .get-started-btn:hover {
+    color: white;
+    background-color: rgb(216, 216, 162);
+}
+
+
+
+
+

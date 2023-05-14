@@ -1,0 +1,17 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {     display: flex;
+    flex-direction: column; }
+.container img {
+    position: absolute;
+    max-width: 100vw;
+    max-height: 50vh;
+}
+.container p {
+    text-align:justify;
+    margin-top: 10px;
+}
